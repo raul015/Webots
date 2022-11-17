@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<robot name="P-Rob3"> 
+
+<!-- <device reference="motor 1" type="RotationalMotor">
+    <ros>
+        
+        <topicName>/motor_1</topicName>
+
+    </ros>
+
+</device>
+ -->
+
+    <webots>
+
+        <plugin type="prob3_pack.prob3_driver.MyRobotDriver" />
+    </webots>
+</robot>
+
+
