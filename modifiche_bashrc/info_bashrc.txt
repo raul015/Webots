@@ -1,0 +1,18 @@
+#AGGIUNTO PER AVVIARE I FILE DI ROS2
+
+
+source /opt/ros/foxy/setup.bash
+
+export PATH="$PATH:/home/raul/.ros/webotsR2022b/webots"
+export LD_LIBRARY_PATH=$PATH/lib/controller
+export ROS2_WEBOTS_HOME="/home/raul/.ros/webotsR2022b/webots"
+export PATH="$PATH:/opt/ros/foxy"
+
+#prove su ROS_DOMAIN_ID ed ROS_LOCALHOST_ONLY
+export ROS_DOMAIN_ID=10
+export ROS_LOCALHOST_ONLY=1
+export ROS_OS_OVERRIDE=ubuntu:20.04:focal
+
+
+
+
